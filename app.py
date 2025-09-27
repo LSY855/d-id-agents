@@ -16,6 +16,9 @@ html_code = f"""
       data-agent-id="{AGENT_ID}"
       data-name="did-agent"
       data-monitor="true"
-      data-orientation="horizontal"
-      data-position="right">
+       data-target-id="did-agent-container">
 </script>
+"""
+
+components.html(html_code, height=650)
+
