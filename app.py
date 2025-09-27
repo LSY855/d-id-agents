@@ -7,7 +7,7 @@ AGENT_ID = st.secrets["DID_AGENT_ID"]
 
 st.title("D-ID AI Agent")
 
-html_code = f"""
+html_code = """
 <div id="did-agent-container" style="width: 80%; height: 600px;"></div>
 <script type="module"
       src="https://agent.d-id.com/v2/index.js"
@@ -21,4 +21,5 @@ html_code = f"""
 """
 
 components.html(html_code, height=650)
+
 
